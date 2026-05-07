@@ -1,0 +1,15 @@
+# nixpacks.toml
+[phases.setup]
+# Especificar PHP 8.4
+nixPkgs = ["php84", "php84Packages.composer", "nodejs"]
+
+cmd = "composer install --optimize-autoloader --no-dev --no-interaction --no-scripts && npm install --omit=dev"
+
+[phases.build]
+cmd = "npm run build && php artisan optimize"
+
+[phases.deploy]
+cmd = "php artisan migrate --force"
+
+[start]
+cmd = "php artisan octane:frankenphp --port=$PORT --host=0.0.0.0"
