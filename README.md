@@ -7,7 +7,7 @@
 
 #### Importante tener creada la base de datos previamente
 
-1. Clonar el repositorio de [https://github.com/DanielZC/auth.git](https://github.com/DanielZC/backend.git)
+1. Clonar el repositorio de [backend](https://github.com/DanielZC/backend.git)
 2. Copiar el archivo .env.example y cambiarle el nombre a .env
 3. Reemplazar las variables del archivo original por tus datos de conexión
 ```bash
