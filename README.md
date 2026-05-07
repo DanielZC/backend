@@ -9,7 +9,7 @@
 
 1. Clonar el repositorio de [https://github.com/DanielZC/auth.git](https://github.com/DanielZC/backend.git)
 2. Copiar el archivo .env.example y cambiarle el nombre a .env
-3. Reemplazar las variables del archivo original por estas
+3. Reemplazar las variables del archivo original por tus datos de conexión
 ```bash
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
