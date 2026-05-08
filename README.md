@@ -30,7 +30,7 @@ DB_PASSWORD=123456
 4. Una vez creado, hacer clic izquierdo sobre el servicio y se abrirá un panel. Seleccionar la opción "Variables" para conectarse al servicio; solo debemos usar los valores de las variables
 
 > **Importante:** Para obtener el host, debemos ir a la opción "Settings" y buscar la sección **Networking > Public Networking**. Copiar la dirección sin el puerto `:5432`.  
-> **Ejemplo:** Si la dirección es `turntable.proxy.rlwy.net:53377`, usamos `53377` como puerto.
+> **Ejemplo:** Si la dirección es `turntable.proxy.rlwy.net:53377`, usamos `53377` como puerto la conectar con la base de datos.
 
 ```bash
 PGPASSWORD
